@@ -31,7 +31,9 @@ header {
     height: 1px;
     width: 960px;
     background-color: #696969;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
+
+}
+.first_img{
+    height: 108px;
+    width: 122px;
 }
