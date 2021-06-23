@@ -1,5 +1,37 @@
-body{
-    width: 100px;
-    height: 100px;
-}
 
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.h-con{
+    width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-b{
+    width: 279px;
+    height: 108px;
+    background-color: #777777;
+}
+.third-b{
+    width: 513px;
+    height: 108px;
+    background-color: #777777;
+}
+.border_t{
+    height: 1px;
+    width: 960px;
+    background-color: #696969;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
