@@ -9,12 +9,19 @@ body{
 
 }
 header {
-    width: 100%;
+
     display: flex;
     justify-content: center;
     margin-top: 25px;
     margin-bottom: 20px;
     margin-right: 20px;
+    margin-left: 20px
+;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+    border-bottom-hight: 960px;
+    align-content: stretch;
+
 }
 .h-con{
     width: 960px;
@@ -22,12 +29,14 @@ header {
     padding-right: 10px;
     display: flex;
     justify-content: space-between;
+
 }
 .first_img{
     height: 108px;
     width: 122px;
-    margin-left: 24px;
+    margin-left: 20px;
     margin-right: 15px;
+
 }
 .sec-b{
     width: 280px;
@@ -41,10 +50,11 @@ header {
     background-color: #777777;
 }
 
-.border_top{
-    height: 1px;
-    width: 960px;
-    background-color: #696969;
-    align-items: center;
 
+
+
+footer{
+    align-items: flex-end;
+    border-top: 1px solid #000;
+    display: flex;
 }
