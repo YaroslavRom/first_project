@@ -5,7 +5,7 @@ body{
     justify-content: center;
     flex-direction: column;
 
-    background-color: green;
+    background-color: #ffffff;
 
 }
 .container{
@@ -58,7 +58,7 @@ header {
 .border-top{
     height: 1px;
     width: 940px;
-    background-color:purple;
+    background-color: #696969;
     margin-left: 10px;
 
 }
