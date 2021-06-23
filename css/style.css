@@ -50,8 +50,19 @@ header {
     width: 510px;
     height: 108px;
     background-color: #777777;
+    display: flex;
+    justify-content: end;
 
 
+}
+
+
+.tipa-top-text{
+    display: flex;
+    width: 160px;
+    align-items: flex-end;
+    flex-direction: column;
+padding-right:10px;
 }
 
 
@@ -62,4 +73,18 @@ header {
     margin-left: 10px;
 
 }
+
+.mid_section{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 960px;
+
+}
+.mid-left{
+   width: 204px;
+
+    background-color: aliceblue;
+    
+}
+
 
