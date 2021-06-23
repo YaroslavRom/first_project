@@ -4,11 +4,17 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 980px;
+
+
 }
 header {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 .h-con{
     width: 960px;
@@ -17,23 +23,28 @@ header {
     display: flex;
     justify-content: space-between;
 }
+.first_img{
+    height: 108px;
+    width: 122px;
+    margin-left: 24px;
+    margin-right: 15px;
+}
 .sec-b{
-    width: 279px;
+    width: 280px;
     height: 108px;
     background-color: #777777;
+    margin-right: 22px;
 }
 .third-b{
     width: 513px;
     height: 108px;
     background-color: #777777;
 }
-.border_t{
+
+.border_top{
     height: 1px;
     width: 960px;
     background-color: #696969;
+    align-items: center;
 
-}
-.first_img{
-    height: 108px;
-    width: 122px;
 }
