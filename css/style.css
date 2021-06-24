@@ -109,6 +109,13 @@ header {
     height: 335px;
 
 }
+.top-block-txt{
+    font-family: Arial;
+    font-size: 4px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #777777;
+}
 
 .left-mid-img{
     width: 184px;
@@ -202,6 +209,7 @@ header {
     color: #ffffff;
     column-count: 2;
     justify-content: space-between;
+    column-gap: 80px;
 }
 
 .right-end{
