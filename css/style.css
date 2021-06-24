@@ -96,7 +96,6 @@ header {
     width: 204px;
     height: 819px;
     /*margin-left: 10px;*/
-    background-color: aliceblue;
     flex-direction: column;
     justify-content: space-between;
     align-content: flex-end;
@@ -108,7 +107,7 @@ header {
     background-color: #777777;
     width: 184px;
     height: 335px;
-    
+
 }
 
 .left-mid-img{
@@ -121,38 +120,37 @@ header {
 }
 
 .mid-right{
-    background-color: violet;
     /*width: 760px;*/
     height: 819px;
     /*margin-right: 10px;*/
 
 
 }.top_head{
+     width: 740px;
+     height: 200px;
+     background-color: #dcdcdc;
+     margin-left: 10px;
+
+ }
+.top-mini{
+    display: flex;
     width: 740px;
-    height: 200px;
-    background-color: #dcdcdc;
+    margin-top: 20px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.bottom-mini{
+    display: flex;
+    width: 740px;
+    margin-top: 20px;
     margin-left: 10px;
 
- }
- .top-mini{
-     display: flex;
-     width: 740px;
-     margin-top: 20px;
-     margin-left: 10px;
-     justify-content: space-between;
- }
- .bottom-mini{
-     display: flex;
-     width: 740px;
-     margin-top: 20px;
-     margin-left: 10px;
+}
 
- }
-
- .group-img{
-     width: 132px;
-     height: 152px;
- }
+.group-img{
+    width: 132px;
+    height: 152px;
+}
 .group-img2{
     width: 132px;
     height: 152px;
@@ -168,7 +166,53 @@ header {
 }
 
 .mid-b1{
-   width: 360px;
+    width: 360px;
     height: 200px;
     background-color: #dcdcdc;
 }
+
+
+.end{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+.left-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    align-content: space-between;
+
+}
+.end-block01{
+    display: flex;
+    width: 297px;
+    height: 180px;
+    background-color: #777777;
+    justify-content: space-between;
+
+
+}
+.right-end{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.top-end12{
+    background-color: #777777 ;
+    width: 310px;
+    height: 75px;
+}
+.bottom-end{
+    width: 310px;
+    height: 75px;
+
+}
+
+
