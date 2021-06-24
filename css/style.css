@@ -167,7 +167,7 @@ header {
 
 .mid-b1{
     width: 360px;
-    height: 200px;
+    height: auto;
     background-color: #dcdcdc;
 }
 
@@ -193,9 +193,17 @@ header {
     height: 180px;
     background-color: #777777;
     justify-content: space-between;
-
-
 }
+.list-column{
+    font-family: Arial;
+    font-size: 10px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    column-count: 2;
+    justify-content: space-between;
+}
+
 .right-end{
     display: flex;
 
@@ -214,5 +222,19 @@ header {
     height: 75px;
 
 }
+.txt-11{
+    color: #e2e2e2;
+    display: flex;
+    width: auto;
+    align-items: flex-end;
+    flex-direction: column;
+
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
 
 
