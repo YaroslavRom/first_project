@@ -75,16 +75,45 @@ padding-right:10px;
 }
 
 .mid_section{
-    padding-left: 10px;
-    padding-right: 10px;
+    display: flex;
     width: 960px;
-
+align-content: stretch;
 }
 .mid-left{
-   width: 204px;
-
+    display: flex;
+    width: 204px;
+    height: 819px;
+    margin-left: 10px;
     background-color: aliceblue;
-    
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
+
+
+}
+
+.top-block{
+    background-color: #777777;
+    width: 184px;
+    height: 335px;
+}
+
+.left-mid-img{
+    width: 184px;
+    height: 134px;
+    display: flex;
+    margin-top: auto;
+
+
+}
+
+.mid-right{
+    background-color: violet;
+    width: 760px;
+    height: 819px;
+    margin-right: 10px;
+
+
 }
 
 
