@@ -111,10 +111,9 @@ header {
 }
 .top-block-txt{
     font-family: Arial;
-    font-size: 4px;
-    line-height: 22px;
+    font-size: 18px;
     font-weight: 400;
-    color: #777777;
+    color: #ffffff;
 }
 
 .left-mid-img{
@@ -176,6 +175,8 @@ header {
     width: 360px;
     height: auto;
     background-color: #dcdcdc;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -203,7 +204,7 @@ header {
 }
 .list-column{
     font-family: Arial;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 22px;
     font-weight: 400;
     color: #ffffff;
@@ -242,6 +243,29 @@ header {
     line-height: 22px;
     font-weight: 400;
     color: #ffffff;
+}
+
+.mid-left-txt{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #777777;
+    display: flex;
+justify-content: center;
+    margin-right: 20px;
+
+
+}
+.mid-right-text{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #777777;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
 }
 
 
