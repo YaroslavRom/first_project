@@ -160,9 +160,11 @@ header {
      font-size: 14px;
      line-height: 22px;
      color: #777777;
-     padding-top: 10px;
-     padding-bottom: 20px;
+     padding-top: 0px;
+     margin-top: 0px;
+     padding-bottom: 4px;
      padding-left: 20px;
+     
  }
  .mid-txt-inside{
      font-family: Arial;
@@ -218,7 +220,7 @@ header {
     flex-direction: row;
     margin-top: 20px;
     justify-content: space-between;
-
+ padding-bottom: 20px;
 }
 .left-end{
     display: flex;
@@ -300,6 +302,7 @@ justify-content: center;
     justify-content: space-around;
     margin-right: 20px;
 }
+
 
 
 
