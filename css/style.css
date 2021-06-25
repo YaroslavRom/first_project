@@ -68,7 +68,14 @@ header {
     align-items: flex-end;
     flex-direction: column;
     padding-right:10px;
-    color: white;
+    
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #ffffff;
+
 }
 
 .border-top{
@@ -107,13 +114,19 @@ header {
     background-color: #777777;
     width: 184px;
     height: 335px;
+    display: flex;
+    justify-content: stretch;
 
 }
 .top-block-txt{
     font-family: Arial;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 12px;
     color: #ffffff;
+    width: auto;
+    padding-left: 10px;
+    line-height: 2em;
+
+
 }
 
 .left-mid-img{
@@ -129,6 +142,9 @@ header {
     /*width: 760px;*/
     height: 819px;
     /*margin-right: 10px;*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 
 
 }.top_head{
@@ -138,6 +154,23 @@ header {
      margin-left: 10px;
 
  }
+
+ .mid-txt{
+     font-family: Arial;
+     font-size: 14px;
+     line-height: 22px;
+     color: #777777;
+     padding-top: 10px;
+     padding-bottom: 20px;
+     padding-left: 20px;
+ }
+ .mid-txt-inside{
+     font-family: Arial;
+     font-size: 14px;
+     line-height: 22px;
+     color: #777777;
+
+      }
 .top-mini{
     display: flex;
     width: 740px;
